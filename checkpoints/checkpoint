@@ -1,0 +1,2 @@
+model_checkpoint_path: "model-100x100-4glimpse-12x12-4scales-256batch-100epochs.ckpt"
+all_model_checkpoint_paths: "model-100x100-4glimpse-12x12-4scales-256batch-100epochs.ckpt"

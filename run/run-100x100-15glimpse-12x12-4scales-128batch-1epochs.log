@@ -1,0 +1,136 @@
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From <ipython-input-10-d673ff042750>:25: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From <ipython-input-8-ff39f6e7cf00>:23: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\ops\distributions\normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\util\tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+INFO:root:epoch 0: batch: 100/420
+INFO:root:epoch 0: avg_accuracy: 0.1328125
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1383	loss = 2.4052	xent = 2.2838
+INFO:root:llratio = -0.0026	baselines_mse = 0.1188
+DEBUG:root:baselines = [[ 0.08452282  0.13410726  0.1446414  ...,  0.1826677   0.16350779
+   0.16520959]
+ [ 0.1071483   0.11916419  0.12692796 ...,  0.14916231  0.15898448
+   0.1566886 ]
+ [ 0.10412973  0.11950108  0.12580054 ...,  0.16279848  0.20367548
+   0.18872391]
+ ..., 
+ [ 0.14173979  0.19869031  0.20558833 ...,  0.14943293  0.15347682
+   0.14831719]
+ [ 0.11922865  0.14535889  0.15504721 ...,  0.17356727  0.16403088
+   0.15034032]
+ [ 0.12559383  0.14743288  0.15753068 ...,  0.15627778  0.14700875
+   0.15770081]]	rewards = [[ 1.  1.  1. ...,  1.  1.  1.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 1.  1.  1. ...,  1.  1.  1.]]
+INFO:root:epoch 0: batch: 200/420
+INFO:root:epoch 0: avg_accuracy: 0.1640625
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1688	loss = 2.3815	xent = 2.2461
+INFO:root:llratio = 0.0049	baselines_mse = 0.1402
+DEBUG:root:baselines = [[ 0.10655722  0.13875082  0.11713368 ...,  0.07612569  0.07129589
+   0.08312804]
+ [ 0.11585073  0.1487976   0.14652386 ...,  0.14114839  0.14851286
+   0.14425361]
+ [ 0.1066712   0.12074809  0.14293008 ...,  0.10006803  0.12060489
+   0.11162308]
+ ..., 
+ [ 0.10197101  0.12995055  0.12370141 ...,  0.07625868  0.10540838
+   0.08397242]
+ [ 0.13766332  0.13593163  0.15333664 ...,  0.1112088   0.10244963
+   0.09767903]
+ [ 0.09740058  0.12017111  0.11320001 ...,  0.0778437   0.0927978
+   0.07330547]]	rewards = [[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 1.  1.  1. ...,  1.  1.  1.]
+ ..., 
+ [ 1.  1.  1. ...,  1.  1.  1.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 1.  1.  1. ...,  1.  1.  1.]]
+INFO:root:epoch 0: batch: 300/420
+INFO:root:epoch 0: avg_accuracy: 0.109375
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1305	loss = 2.3894	xent = 2.2574
+INFO:root:llratio = -0.0126	baselines_mse = 0.1194
+DEBUG:root:baselines = [[ 0.09885231  0.10885994  0.15693048 ...,  0.3647294   0.36002052
+   0.36025989]
+ [ 0.09828472  0.1139102   0.11731888 ...,  0.12701687  0.13616712
+   0.11300231]
+ [ 0.12758227  0.15109652  0.14089198 ...,  0.19988704  0.23081973
+   0.20213358]
+ ..., 
+ [ 0.0976681   0.14374489  0.14901555 ...,  0.22994432  0.25803399
+   0.27458918]
+ [ 0.12078463  0.1343793   0.12172073 ...,  0.09746348  0.09397143
+   0.11289594]
+ [ 0.10215129  0.11672776  0.11301322 ...,  0.12013073  0.11268207
+   0.09827842]]	rewards = [[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]]
+INFO:root:epoch 0: batch: 400/420
+INFO:root:epoch 0: avg_accuracy: 0.1796875
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1594	loss = 2.3327	xent = 2.2052
+INFO:root:llratio = -0.0027	baselines_mse = 0.1249
+DEBUG:root:baselines = [[ 0.17600794  0.1688      0.16576901 ...,  0.16314194  0.14152685
+   0.15707579]
+ [ 0.13709658  0.17848754  0.1837171  ...,  0.17581356  0.16957736
+   0.17580627]
+ [ 0.15896437  0.15232116  0.13627037 ...,  0.11989395  0.12776257
+   0.12313153]
+ ..., 
+ [ 0.12724856  0.14240055  0.16432336 ...,  0.10343033  0.10821185
+   0.09105396]
+ [ 0.17865101  0.14652961  0.15162189 ...,  0.11879229  0.1200791
+   0.13079207]
+ [ 0.14776024  0.13047639  0.13754696 ...,  0.10224049  0.09497041
+   0.10037889]]	rewards = [[ 0.  0.  0. ...,  0.  0.  0.]
+ [ 1.  1.  1. ...,  1.  1.  1.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]
+ [ 0.  0.  0. ...,  0.  0.  0.]]
+INFO:root:epoch 0: valid_accuracy = 0.19921875
+INFO:root:Training_time = 113.46953845024109
+INFO:root:test_accuracy = 0.20713141025641027
+INFO:root:Model saved in file: model-100x100-15glimpse-12x12-4scales-128batch-1epochs.ckpt
+INFO:root:total time = 132.90750432014465
+INFO:root:gpu = [name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 8595109440825599456
+, name: "/device:GPU:0"
+device_type: "GPU"
+memory_limit: 4945621811
+locality {
+  bus_id: 1
+  links {
+  }
+}
+incarnation: 11606792611466546355
+physical_device_desc: "device: 0, name: GeForce GTX 1060 with Max-Q Design, pci bus id: 0000:01:00.0, compute capability: 6.1"
+]

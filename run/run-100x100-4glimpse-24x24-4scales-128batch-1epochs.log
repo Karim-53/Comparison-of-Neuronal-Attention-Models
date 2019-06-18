@@ -1,0 +1,113 @@
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From <ipython-input-10-d673ff042750>:25: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+WARNING:tensorflow:From <ipython-input-8-ff39f6e7cf00>:23: Normal.__init__ (from tensorflow.python.ops.distributions.normal) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\ops\distributions\normal.py:160: Distribution.__init__ (from tensorflow.python.ops.distributions.distribution) is deprecated and will be removed after 2019-01-01.
+Instructions for updating:
+The TensorFlow Distributions library has moved to TensorFlow Probability (https://github.com/tensorflow/probability). You should update all references to use `tfp.distributions` instead of `tf.distributions`.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+WARNING:tensorflow:From C:\ProgramData\Anaconda3\envs\tensor-env\lib\site-packages\tensorflow\python\util\tf_should_use.py:193: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+INFO:root:epoch 0: batch: 100/420
+INFO:root:epoch 0: avg_accuracy: 0.1171875
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1180	loss = 2.3974	xent = 2.2986
+INFO:root:llratio = 0.0037	baselines_mse = 0.1025
+DEBUG:root:baselines = [[ 0.09193464  0.11338119  0.16328517  0.16280869]
+ [ 0.06094934  0.09832112  0.09296098  0.1160318 ]
+ [ 0.10423902  0.12239289  0.11409742  0.1162603 ]
+ ..., 
+ [ 0.08303112  0.09180518  0.13714166  0.13893232]
+ [ 0.15449962  0.16645178  0.23372108  0.22147167]
+ [ 0.0825264   0.12899216  0.15881518  0.1677801 ]]	rewards = [[ 1.  1.  1.  1.]
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ [ 1.  1.  1.  1.]]
+INFO:root:epoch 0: batch: 200/420
+INFO:root:epoch 0: avg_accuracy: 0.1328125
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1555	loss = 2.3682	xent = 2.2335
+INFO:root:llratio = -0.0028	baselines_mse = 0.1319
+DEBUG:root:baselines = [[ 0.12657882  0.14325422  0.13186544  0.14026475]
+ [ 0.13152109  0.11686008  0.13296977  0.1219748 ]
+ [ 0.11302038  0.17284265  0.13632329  0.14366563]
+ ..., 
+ [ 0.11178496  0.09701251  0.09918698  0.0967385 ]
+ [ 0.13698104  0.12291685  0.14657952  0.19091557]
+ [ 0.11618024  0.14406781  0.13940993  0.12821677]]	rewards = [[ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ ..., 
+ [ 1.  1.  1.  1.]
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]]
+INFO:root:epoch 0: batch: 300/420
+INFO:root:epoch 0: avg_accuracy: 0.15625
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.1633	loss = 2.3740	xent = 2.2248
+INFO:root:llratio = -0.0114	baselines_mse = 0.1378
+DEBUG:root:baselines = [[ 0.13867933  0.25195619  0.62529981  0.52059782]
+ [ 0.18314961  0.17442398  0.15751016  0.14289448]
+ [ 0.25293308  0.2084437   0.22888644  0.30347744]
+ ..., 
+ [ 0.27481729  0.36281911  0.4070498   0.37531278]
+ [ 0.17211615  0.18991256  0.14697275  0.1248613 ]
+ [ 0.18058662  0.16992033  0.1552417   0.10743621]]	rewards = [[ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]
+ [ 0.  0.  0.  0.]]
+INFO:root:epoch 0: batch: 400/420
+INFO:root:epoch 0: avg_accuracy: 0.2265625
+INFO:root:epoch 0: lr = 0.001000
+INFO:root:epoch 0: reward = 0.2172	loss = 2.3026	xent = 2.1599
+INFO:root:llratio = 0.0161	baselines_mse = 0.1588
+DEBUG:root:baselines = [[ 0.14118621  0.13622612  0.07744987  0.06422572]
+ [ 0.14933483  0.26097542  0.26173621  0.29451996]
+ [ 0.2304796   0.11990415  0.14723366  0.16907264]
+ ..., 
+ [ 0.10749009  0.10946754  0.09001561  0.06777444]
+ [ 0.15498841  0.26230296  0.17734668  0.30226433]
+ [ 0.21297193  0.15372577  0.1219712   0.09882174]]	rewards = [[ 0.  0.  0.  0.]
+ [ 1.  1.  1.  1.]
+ [ 0.  0.  0.  0.]
+ ..., 
+ [ 0.  0.  0.  0.]
+ [ 1.  1.  1.  1.]
+ [ 0.  0.  0.  0.]]
+INFO:root:epoch 0: valid_accuracy = 0.20482336956521738
+INFO:root:time_per_epoch: 348.9773921966553
+INFO:root:Training_time = 348.9773921966553
+INFO:root:test_accuracy = 0.22015224358974358
+INFO:root:Model saved in file: model-100x100-4glimpse-24x24-4scales-128batch-1epochs.ckpt
+INFO:root:total time = 407.5221469402313
+INFO:root:gpu = [name: "/device:CPU:0"
+device_type: "CPU"
+memory_limit: 268435456
+locality {
+}
+incarnation: 12801931077524706769
+, name: "/device:GPU:0"
+device_type: "GPU"
+memory_limit: 4945621811
+locality {
+  bus_id: 1
+  links {
+  }
+}
+incarnation: 9824886115681411636
+physical_device_desc: "device: 0, name: GeForce GTX 1060 with Max-Q Design, pci bus id: 0000:01:00.0, compute capability: 6.1"
+]
