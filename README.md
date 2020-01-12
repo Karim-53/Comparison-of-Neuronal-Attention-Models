@@ -3,7 +3,9 @@
   <img src="https://github.com/Karim-53/Comparison-of-Neuronal-Attention-Models/blob/master/documentation/seminar-flowchart.png">
 </p>
 
-This repo regroups the results of this research paper: (todo put a link)<br/>
+This repo regroups the results of this research paper: https://arxiv.org/abs/1912.03467<br/>
+
+## Results
 Multiple training configurations were tested to understand the impact of each parameter on the Attention model.
 <p align="center">
   <img src="https://github.com/Karim-53/Comparison-of-Neuronal-Attention-Models/blob/master/documentation/conclusion.png">
